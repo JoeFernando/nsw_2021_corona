@@ -7,9 +7,7 @@ output:
         keep_md: TRUE
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 
 
@@ -41,10 +39,13 @@ __Data source & things to keep in mind__
 ### Model output
 
 * Lets first run the code in `code/nsw_forecast.R` to generate the projection 
-```{r, echo=FALSE}
 
-suppressMessages(source("code/nsw_forecast.R"))
+```
+## Warning: package 'readr' was built under R version 4.1.1
+```
 
+```
+## Warning: JSON string contains (illegal) UTF8 byte-order-mark!
 ```
 
 * The code will generate two plots, one for the first 70 days to see how well actuals line-up with model and a second one for 200 days to understand infection 
@@ -52,11 +53,12 @@ suppressMessages(source("code/nsw_forecast.R"))
 
 
 #### Lets view the projection for the first 70 days:
-```{r, echo=FALSE}
-
-plot(blast_off_plot)
 
 ```
+## Warning: Removed 9 rows containing missing values (geom_point).
+```
+
+![](readme_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
 
 * As you can see actuals line-up nicely with the model. It makes one wonder how much of an impact targetted lockdowns have had in stopping th delta variant.      
 
@@ -65,12 +67,16 @@ plot(blast_off_plot)
 
 
 #### Next lets view the full lifecycle of the current outbreak 
-```{r, echo=FALSE}
-
-suppressMessages(source("code/nsw_forecast.R"))
-plot(full_forecast_plot)
 
 ```
+## Warning: JSON string contains (illegal) UTF8 byte-order-mark!
+```
+
+```
+## Warning: Removed 139 rows containing missing values (geom_point).
+```
+
+![](readme_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
 * The plot shows the potential trajectory of the current wave of infections.
 * Clearly, despite our optimistic assumptions the model shows us that there is a potentially frightening few months ahead for NSW.     
 
