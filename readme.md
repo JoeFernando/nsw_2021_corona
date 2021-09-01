@@ -15,7 +15,7 @@ output:
 
 __Model used__
 
--   The forecast model is based on the SIR Model for Spread of Disease and adoped from this blog post <https://blog.ephorie.de/covid-19-the-case-of-germany>     
+-   The forecast model is based on the SIR Model for Spread of Disease and adopted from this blog post <https://blog.ephorie.de/covid-19-the-case-of-germany>     
 
 
 __Key Assumptions__
@@ -51,7 +51,7 @@ __Data source & things to keep in mind__
 #### Lets view the projection for the first 70 days:
 
 ```
-## Warning: Removed 9 rows containing missing values (geom_point).
+## Warning: Removed 8 rows containing missing values (geom_point).
 ```
 
 ![](readme_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
@@ -65,7 +65,7 @@ __Data source & things to keep in mind__
 #### Next lets view the potential full trajectory of the current outbreak 
 
 ```
-## Warning: Removed 139 rows containing missing values (geom_point).
+## Warning: Removed 138 rows containing missing values (geom_point).
 ```
 
 ![](readme_files/figure-html/unnamed-chunk-3-1.png)<!-- -->

@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 __Model used__
 
--   The forecast model is based on the SIR Model for Spread of Disease and adoped from this blog post <https://blog.ephorie.de/covid-19-the-case-of-germany>     
+-   The forecast model is based on the SIR Model for Spread of Disease and adopted from this blog post <https://blog.ephorie.de/covid-19-the-case-of-germany>     
 
 
 __Key Assumptions__
